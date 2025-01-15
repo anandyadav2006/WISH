@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message for You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hello, My Love! 💖</h1>
+        <p>This is a special message for you, just to make you smile! 😊</p>
+        <p>Thank you for being the most amazing person in my life. ❤️</p>
+        <button onclick="showMessage()">Click Me</button>
+        <p id="hidden-message" class="hidden">You are the best thing that's ever happened to me! 🌟</p>
+    </div>
+</body>
+<script>
+    function showMessage() {
+        document.getElementById('hidden-message').classList.remove('hidden');
+    }
+</script>
+</html>
